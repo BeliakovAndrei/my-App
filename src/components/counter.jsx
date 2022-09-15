@@ -10,16 +10,6 @@ const Counter = (props) => {
         classes += value === 0 ? "bg-warning" : "bg-primary";
         return classes;
     };
-
-    // const handleIncrement = (id) => {
-    //     console.log("handleIncrement", id)
-    // //  setValue((prevState) => prevState + 1)
-    // };
-    // const handleDecrement = (id) => {
-    //     console.log("handle decrement", id)
-    // //  setValue((prevState) => prevState - 1)
-    // };
-
     return (
         <div> 
         <span>{props.name}</span> 
