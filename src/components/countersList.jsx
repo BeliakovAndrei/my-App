@@ -20,8 +20,8 @@ const CountersList = () => {
         setCounters(newDecrement);
     };
     const handleIncrement = (id) => {
-        const newDecrement = counters.map((c ) => c.id === id ? {...c, value: c.value += 1} : c);
-        setCounters(newDecrement);
+        const newIncrement = counters.map((c ) => c.id === id ? {...c, value: c.value += 1} : c);
+        setCounters(newIncrement);
     };
 
     const handleReset = () => {
